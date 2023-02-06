@@ -126,13 +126,17 @@ const Index = () => {
     }
   };
 
+  const deployEncrypted = async (e) => {
+    console.log(e);
+  };
+
   return (
     <Container>
       <Heading>
-        Welcome to <Span>template-snap</Span>
+        Welcome to <Span>Lighthouse Snap</Span>
       </Heading>
       <Subtitle>
-        Get started by editing <code>src/index.ts</code>
+        <input onChange={e=>deployEncrypted(e)} type="file" />
       </Subtitle>
       <CardContainer>
         {state.error && (
