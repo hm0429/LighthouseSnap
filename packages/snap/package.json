@@ -58,6 +58,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@lighthouse-web3/sdk": "^0.1.12"
+    "@lighthouse-web3/sdk": "^0.1.12",
+    "ethers": "^6.0.2"
   }
 }
